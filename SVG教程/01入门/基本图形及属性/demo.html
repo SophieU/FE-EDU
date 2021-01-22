@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 400px;
+            height: 400px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>矩形</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" >
+            <rect x="50" y="0" width="200" height="100" rx="20" ry="20" fill="blue"/>
+        </svg>
+    </div>
+    <div class="box">
+        <h3>圆形</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" >
+            <circle cx="60" cy="60" r="60"  fill="yellow"/>
+        </svg>
+    </div>
+    <div class="box">
+        <h3>直线</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" >
+            <line x1="0" y1="0" x2="100" y2="100"  stroke="red"/>
+        </svg>
+    </div>
+    <div class="box">
+        <h3>折线</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" >
+            <polyline points="0 0 50 20 30 50"  stroke="blue" fill="none"/>
+        </svg>
+    </div>
+    <div class="box">
+        <h3>多边形</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" >
+            <polygon points="0 0 50 20 30 50 10 50"  stroke="none" fill="pink"/>
+        </svg>
+    </div>
+    <div class="box">
+        <h3>填充、描边和变换属性</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" >
+            <rect x="0" y="0" width="200" height="100" rx="20" ry="20" 
+                fill="blue"
+                 stroke="red" 
+                 strokeWidth="5" 
+                 transform="rotate(90)"/>
+        </svg>
+    </div>
+    
+</body>
+</html>
